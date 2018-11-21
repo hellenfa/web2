@@ -21,7 +21,7 @@ class TabelPemesanans extends Migration
                 $table->string('no_telp');
                 $table->string('prodi');
                 $table->date('tgl_pinjam');
-                $table->string('stage');
+                $table->tinyint('stage')->default('0');
                 $table->timestamps();
             });
 

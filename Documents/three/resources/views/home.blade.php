@@ -15,8 +15,9 @@
                         </div>
                     @endif
 
-                    <h4><CENTER>Selamat Datang <strong> PEMESAN </strong>!</CENTER>
-                    <p>Cara mudah booking ruangan Departemen TEDI hanya di <a href="/">Sistem Informasi Peminjaman Ruang Departemen TEDI</a>. </p></h4>
+                    <center><h4>Selamat Datang <strong> PEMESAN </strong>!
+                        <p>Cara mudah booking ruangan Departemen TEDI hanya di <a href="/mesan">Sistem Informasi Peminjaman Ruang Departemen TEDI</a>. </p>
+                    </h4></center>
                         <center><h2><i>Booking from Anywhere</i></h2>
                         </center>
 

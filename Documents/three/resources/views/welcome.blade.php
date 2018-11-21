@@ -85,7 +85,7 @@
 
                 <div class="links">
                     <a href="admin"> Admin </a>
-                    <a href="user"> Member </a>
+                    <a href="user/login"> Member </a>
                     <a href="nonmember"> Non Member </a>
                 </div>
             </div>

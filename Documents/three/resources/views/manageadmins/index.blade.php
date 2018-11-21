@@ -55,8 +55,8 @@
 									href="{{ route('manageadmins.edit',$admin->id) }}">Edit</a>
 									{!! Form::open(['method' => 'DELETE','route' =>
 									['manageadmins.destroy', $admin->id],'style'=>'display:inline']) !!}
-									{!! Form::submit('Delete', ['class' => 'btn btndanger'])
-									!!}
+										<button class="btn btn-danger" onClick="return confirm('Are you sure?')"
+										href="{{ route('manageadmins.destroy',$admin->id) }}">Delete</button>
 									{!! Form::close() !!}
 								</td>
 							</tr>

@@ -54,7 +54,7 @@
 								<td>{{ $pesan->nim }}</td>
 								<td>{{ $pesan->no_telp }}</td>
 								<td>{{ $pesan->prodi }}</td>
-								<td>{{ $pesan->tgl_pinjam }}</td>
+								<td>{{ $pesan->tgl_pinjam }}</td>	
 								<td>
 									<a class="btn btn-info"
 									href="{{ route('pemesanan.show',$pesan->id) }}">Detail</a>
@@ -62,8 +62,8 @@
 									href="{{ route('pemesanan.edit',$pesan->id) }}">Edit</a>
 									{!! Form::open(['method' => 'DELETE','route' =>
 									['pemesanan.destroy', $pesan->id],'style'=>'display:inline']) !!}
-									{!! Form::submit('Delete', ['class' => 'btn btn-danger'])
-									!!}
+										<button class="btn btn-danger" onClick="return confirm('Are you sure?')"
+										href="{{ route('pemesanan.destroy',$pesan->id) }}">Delete</button>
 									{!! Form::close() !!}
 								</td>
 								<!--  -->
