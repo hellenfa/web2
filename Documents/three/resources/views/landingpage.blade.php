@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Devinka Transport</title>
+		<title>Sistem Informasi Peminjaman Ruang DTEDI</title>
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,22 +21,22 @@
 		<header id="home-section">
 			<div class="social-link-header">
 				<div class="container">
-					<p class="tage-line">Devinka Transport</p> <!-- tag-line -->
+					<p class="tage-line">Sistem Informasi Peminjaman Ruang DTEDI</p> <!-- tag-line -->
 					<span class="phone-number">
 						<a href="#">
 							<i class="fa fa-phone" aria-hidden="true"></i>
-							081548189990
+							(0274) 6491302
 						</a>
 					</span> <!-- email-address-->
 					<span class="email-address">
 						<a href="#">
 							<i class="fa fa-envelope-o" aria-hidden="true"></i>
-							rental@devinka.com
+							sarpras.tedi@ugm.ac.id
 						</a>
 					</span> <!-- email-address-->
 				</div> <!-- container -->
 			</div> <!-- ocial-link-header -->
-			<div class="menu one-page-menu"> 
+			<div class="menu one-page-menu">
 				<nav class="navbar navbar-default">
 					<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -56,8 +56,8 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="#home-section">Home</a></li>
-								<li><a href="#detail-section">ListMobil</a></li>
-								<li><a href="#keuntungan">Keuntungan</a></li>
+								<li><a href="#facilities">Facilities</a></li>
+								<li><a href="#detail-section">What We Offer</a></li>
 								<li><a href="#testimonial-section">Testimoni</a></li>
 								<!--login e-->
 								<li class="has-child"><a href="#blog-section">Member</a>
@@ -66,11 +66,11 @@
 										<!--login e-->
 										<li><a href="login">Login</a></li>
 										<li><a href="register">Register</a></li>
-											
+
 									</ul>
 								</li>
-								<li><a href="#contact-section">Contact</a></li>		
-												
+								<li><a href="#contact-section">Contact</a></li>
+
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -100,7 +100,7 @@
 						<div class="item">
 							<img src="images/parallax-background-3.jpg" alt="bedroom3">
 							<div class="background-overlay"></div>
-						</div> <!-- item --> 
+						</div> <!-- item -->
 					</div> <!-- carousel-inner -->
 					<!-- Left and right controls -->
 					<a class="left carousel-control" href="#main-slider-carousel" role="button" data-slide="prev">
@@ -115,31 +115,31 @@
 				<div class="carousel-caption">
 					<div class="container">
 						<div class="property-slider-info">
-							<h2>Devinka Transport</h2> adalah penyedia jasa sewa mobil / rental mobil di Jogja yang meliputi penyewaan harian, tour paket wisata, antar jemput bandara, jasa pindahan dan ekspedisi darat. Kepuasan pelanggan adalah hal yang terus kami jaga dan pertahankan dengan memberikan pelayanan yang profesional mulai dari aspek pelayanan pelanggan, perawatan & inspeksi rutin kendaraan hingga standard untuk supir ketika melayani pelanggan.
-							
+							<h2>Sistem Informasi Peminjaman Ruang DTEDI</h2> Cara mudah untuk booking ruangan Departemen TEDI darimana dan kapan saja.
+
 						</div>
-														
+
 					</div>
 				</div> <!-- carousel-caption -->
 			</div>
 		</section>
-		<section class="background-blue" id="keuntungan">
+		<section class="background-blue" id="facilities">
 			<div class="container">
-				
+
 				<div id="offer-slider-carousel" class="carousel slide" data-ride="carousel">
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<h3 class="font-white text-center">Diskon 30% untuk penyewaan ke 10 kali</h3>							
+							<h3 class="font-white text-center">Diskon 30% untuk penyewaan ke 10 kali</h3>
 						</div> <!-- item -->
 						<div class="item">
-							<h3 class="font-white text-center">Nikmati liburan anda dengan Devinka Transport</h3>		
-							
+							<h3 class="font-white text-center">Nikmati liburan anda dengan Devinka Transport</h3>
+
 						</div> <!-- item -->
 						<div class="item">
-							<h3 class="font-white text-center">Dapatkan mobil mewah seharga 300K perhari untuk menikmati kota Jogja</h3>		
-							
-						</div> <!-- item --> 
+							<h3 class="font-white text-center">Dapatkan mobil mewah seharga 300K perhari untuk menikmati kota Jogja</h3>
+
+						</div> <!-- item -->
 					</div> <!-- carousel-inner -->
 					<!-- Left and right controls -->
 					<a class="left carousel-control" href="#offer-slider-carousel" role="button" data-slide="prev">
@@ -151,73 +151,67 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-				
+
 			</div>
 		</section>
+
 		<section>
-			<div class="our-service-inner">
-				<div class="container">
-					<div class="vertical-distance-80"></div>
-					<h2 class="text-center main-title">Keuntungan Dengan Devinka Transport</h2>
-					<p class="text-center sub-title">Dapatkan Keuntungan Dengan Kami</p>
-					<div class="vertical-distance-60"></div>
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-4 text-center">
-							<div class="icon-type1 border-light-grey">
-								<img src="images/service1.png" alt="Property Management"/>
-								<h4 class="icon-title">Full Bensin</h4>
-								<p>
-									Bahan bakar terisi penuh pada awal anda akan menyewa mobil.
-								</p>
-							</div>
+			<div class="container">
+				<div class="vertical-distance-60"></div>
+				<h2 class="text-center main-title">OUR FACILITES</h2>
+				<div class="vertical-distance-40"></div>
+				<div class="row mb40">
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service1.png" class="mb16" width="80px" />
+							<h5 class="uppercase">50 MBPS WIRELESS CONNECTION</h5>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-4 text-center">
-							<div class="icon-type1 border-light-grey">
-								<img src="images/service4.png" alt="Capital Care"/>
-								<h4 class="icon-title">Dapatkan Diskon Spesial</h4>
-								<p>
-									Dapatkan Diskon spesial dari kami setiap anda menyewa di hari tertentu, dapatkan juga diskon langganan setiap menyewa ke 10 kali.
-								</p>
-							</div>
+					</div>
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service2.png" class="mb16" width="80px" />
+							<h5 class="uppercase">MICROPHONE & BOSE SOUND SYSTEM</h5>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-4 text-center">
-							<div class="icon-type1 border-light-grey">
-								<img src="images/service3.png" alt="Financial Reporting"/>
-								<h4 class="icon-title">Mobil dengan Kapasitas yang luas</h4>
-								<p>
-									Menyewa mobil dengan kapasitas yang luas sehingga dapat memuat barang barang liburan anda.
-								</p>
-							</div>
+					</div>
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service3.png" class="mb16" width="80px" />
+							<h5 class="uppercase">PROJECTOR & SCREEN</h5>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-4 text-center">
-							<div class="icon-type1 border-light-grey">
-								<img src="images/service2.png" alt="Business Development"/>
-								<h4 class="icon-title">Kemanapun Anda Pergi</h4>
-								<p>
-									Kemanapun anda pergi, dengan berbagai tujuan yang anda inginkan Devinka Transport akan menyediakannya dengan harga yang bersahabat.
-								</p>
-							</div>
+					</div>
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service4.png" class="mb16" width="80px" />
+							<h5 class="uppercase">POINTER</h5>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-4 text-center">
-							<div class="icon-type1 border-light-grey">
-								<img src="images/service5.png" alt="Finance Real Estate"/>
-								<h4 class="icon-title">24x7 Roadside Assistance</h4>
-								<p>
-									Dapatkan layanan konsultasi full, jika anda mengalami masalah dengan mobil yang anda sewa, kami akan siap membantu.
-								</p>
-							</div>
+					</div>
+				</div>
+				<div class="row mb24">
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service5.png" class="mb16" width="80px" />
+							<h5 class="uppercase">BACKDROP RIDGING</h5>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-4 text-center">
-							<div class="icon-type1 border-light-grey">
-								<img src="images/service6.png" alt="Recover Asset Value"/>
-								<h4 class="icon-title">Damage Insurance</h4>
-								<p>
-									Dapatkan layanan asuransi jika mobil yang anda gunakan terjadi hal yang tidak diinginkan.
-								</p>
-							</div>
+					</div>
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service6.png" class="mb16" width="80px" />
+							<h5 class="uppercase">WHITE BOARD & COLOR MARKERS</h5>
 						</div>
-					</div> <!-- ros -->
-					<div class="vertical-distance-80"></div>
+					</div>
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service7.png" class="mb16" width="80px" />
+							<h5 class="uppercase">FRESH PAPERS & PENS</h5>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 col-sm-6 text-center">
+						<div class="feature">
+							<img src="images/service8.png" class="mb16" width="80px" />
+							<h5 class="uppercase">FLIP CHART</h5>
+						</div>
+					</div>
+				<div class="vertical-distance-80"></div>
 				</div> <!-- container -->
 			</div>
 		</section>
@@ -226,7 +220,7 @@
 			<div class="vertical-distance-80"></div>
 			<div class="container">
 				<h2 class="text-center main-title">Car Detail</h2>
-				<p class="text-center sub-title">Pilih Mobil Favoritmu</p>	
+				<p class="text-center sub-title">Pilih Mobil Favoritmu</p>
 				<div class="vertical-distance-60"></div>
 
 				<ul class="nav nav-tabs">
@@ -236,9 +230,9 @@
 					<li><a data-toggle="tab" href="#menu3">Toyota Xenia</a></li>
 					<!-- <li><a data-toggle="tab" href="#menu4">Toyota Xenia</a></li> -->
 					<li><a data-toggle="tab" href="#menu5">Honda Brio</a></li>
-					
+
 					<li><a data-toggle="tab" href="#menu7">Kijang Innova</a></li>
-					
+
 				</ul>
 
 				<div class="tab-content">
@@ -268,7 +262,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -296,9 +290,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 
@@ -309,7 +303,7 @@
 												<li><strong>Extra Kms. :- </strong> 12.000 per km </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -344,7 +338,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -362,7 +356,7 @@
 												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
 											</p>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -373,9 +367,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
@@ -392,7 +386,7 @@
 												<li><strong>Driver Allownce :- </strong> 0 </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -427,7 +421,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -455,9 +449,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
@@ -474,7 +468,7 @@
 												<li><strong>Driver Allownce :- </strong> 0 </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -509,7 +503,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -537,9 +531,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
@@ -556,7 +550,7 @@
 												<li><strong>Driver Allownce :- </strong> 0 </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -591,7 +585,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -619,9 +613,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
@@ -638,7 +632,7 @@
 												<li><strong>Driver Allownce :- </strong> 0 </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -673,7 +667,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -701,9 +695,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 									<div class="vertical-distance-10"></div>
@@ -739,7 +733,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -767,9 +761,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
@@ -786,7 +780,7 @@
 												<li><strong>Driver Allownce :- </strong> 0 </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -821,7 +815,7 @@
 													</div> <!-- item -->
 													<div class="item">
 														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item --> 
+													</div> <!-- item -->
 												</div> <!-- carousel-inner -->
 											</div>
 										</div>
@@ -849,9 +843,9 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Paket Layanan</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>						
+												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
 												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-									
+
 											</ul>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
@@ -868,7 +862,7 @@
 												<li><strong>Driver Allownce :- </strong> 0 </li>
 											</ul>
 											<div class="vertical-distance-20"></div>
-											
+
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -882,12 +876,12 @@
 
 				</div>
 				<center><a href="mesan" class="documents-btn">PESAN<i class="fa fa-calendar" aria-hidden="true"></i></a> </center>
-				<div class="vertical-distance-20"></div>	
+				<div class="vertical-distance-20"></div>
 			</div>
 
 		</section>
 
-				
+
 		<section id="agent-section">
 			<div class="agent-section-inner">
 				<div class="vertical-distance-80"></div>
@@ -895,11 +889,11 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<div class="vertical-distance-60"></div>
-							<h2 class="main-title">Indra Wirawan</h2>
-							<p class="sub-title left">Booking Manager and Helper.</p>
+							<h2 class="main-title">Bapak Anto</h2>
+							<p class="sub-title left">Kepala Bagian Sarana dan Prasarana DTEDI</p>
 							<div class="vertical-distance-40"></div>
 							<p>
-								DevInKa Transport adalah penyedia layanan rental mobil di Jogja, paket tour wisata, airport transfer, drop dalam/luar kota dan pengiriman barang.
+								Sistem Informasi Peminjaman Ruang DTEDI cara mudah memesan ruangan Departemen TEDI darimana dan kapan saja.
 							</p>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
@@ -915,7 +909,7 @@
 										</div>
 										<div class="media-body">
 											<h4 class="media-heading">Call On</h4>
-											<p>08158189990</p>
+											<p>(0274) 6491302</p>
 										</div>
 									</div>
 								</div>
@@ -926,11 +920,11 @@
 										</div>
 										<div class="media-body">
 											<h4 class="media-heading">Mail On</h4>
-											<p><a href="https://gmail.com">rental@devinka.com</a></p>
+											<p><a href="https://gmail.com">sarpras.tedi@ugm.ac.id</a></p>
 										</div>
 									</div>
 								</div>
-							</div>						
+							</div>
 							<div class="vertical-distance-40"></div>
 							<ul class="agent-social-icons">
 								<li><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -940,7 +934,7 @@
 								<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
 							</ul>
 							<div class="vertical-distance-40"></div>
-							
+
 							<div class="vertical-distance-20"></div>
 						</div>
 					</div>
@@ -993,7 +987,7 @@
 										<img src="images/agent123.jpg" alt="agent">
 									</div>
 								</div>
-							</div> <!-- row -->					
+							</div> <!-- row -->
 						</div> <!-- item -->
 						<div class="item">
 							<div class="row">
@@ -1056,7 +1050,7 @@
 									</div>
 								</div>
 							</div> <!-- row -->
-						</div> <!-- item --> 
+						</div> <!-- item -->
 					</div> <!-- carousel-inner -->
 				</div>
 			</div>
@@ -1065,7 +1059,7 @@
 		</section>
 
 		<!-- register -->
-		
+
 		<!--partners-->
 		<!-- <section class="our-partner">
 			<div class="vertical-distance-40"></div>
@@ -1111,8 +1105,8 @@
 							</span>
 							<span>Signup for newsletter</span>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 text-right">					
-							<form method="post" action="#"> 
+						<div class="col-xs-12 col-sm-6 col-md-6 text-right">
+							<form method="post" action="#">
 								<div class="input-group">
 									<input type="email" class="form-control" placeholder="Email Address">
 									<div class="input-group-btn">
@@ -1131,8 +1125,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-6 agent-detail">
-							<h2 class="main-title">Contact Deatil</h2>
-							<p class="sub-title left">Contct us on</p>
+							<h2 class="main-title">Get In Touch</h2>
+							<p class="sub-title left">Connect with Us</p>
 							<div class="vertical-distance-20"></div>
 							<div class="media">
 								<div class="media-left">
@@ -1140,7 +1134,7 @@
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">Address</h4>
-									<p>Jl. Blimbingsari No. 9 Caturtunggal, Depok, Kota Yogyakarta 55161</p>
+									<p>Jl. Yacaranda, Sekip Unit IV, Yogyakarta. 55281</p>
 								</div>
 							</div>
 							<div class="vertical-distance-20"></div>
@@ -1150,7 +1144,7 @@
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">Call On</h4>
-									<p>08158189990</p>
+									<p>(0274) 6491302</p>
 								</div>
 							</div>
 							<div class="vertical-distance-20"></div>
@@ -1160,7 +1154,7 @@
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">Mail On</h4>
-									<p><a href="#">rental@devinka.com</a></p>
+									<p><a href="#">sarpras.tedi@ugm.ac.id</a></p>
 								</div>
 							</div>
 							<div class="vertical-distance-20"></div>
@@ -1170,10 +1164,10 @@
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">Office Time</h4>
-									<p>10 AM to 12 PM, 1 PM to 6 PM</p>
+									<p>Monday - Friday, 8 AM to 12 PM & 1 PM to 4 PM</p>
 								</div>
 							</div>
-						</div>						
+						</div>
 						<div class="col-xs-12 col-sm-6 col-md-6">
 							<h2 class="main-title">Kritik dan Saran</h2>
 							<p class="sub-title left"></p>
@@ -1208,10 +1202,10 @@
 				<div class="vertical-distance-80"></div>
 			</div>
 		</section>
-		<footer class="social-link-header">				
+		<footer class="social-link-header">
 			<div class="one-page-footer">
 				<div class="vertical-distance-10"></div>
-				<p class="text-center">All copy right reseved &copy; 2017 Devinka Transport</p>
+				<p class="text-center">All copy right reseved &copy; 2018 Three Muskeeters Developer</p>
 				<div class="vertical-distance-10"></div>
 			</div>
 		</footer> <!-- Footer -->
@@ -1223,7 +1217,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<h4 class="modal-title" id="image_lightbox_label">Book Car</h4>
+						<h4 class="modal-title" id="image_lightbox_label">Book Room</h4>
 					</div>
 					<div class="modal-body">
 						<div class="row">
@@ -1322,7 +1316,7 @@
 			</div>
 		</div>
 
-		<script src="js/jquery.min.js"></script>		
+		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap-select.min.js"></script>
 		<script src="js/bootstrap-datepicker.min.js"></script>
@@ -1331,7 +1325,6 @@
 		<script src="js/image-light-box.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf6My1Jfdi1Fmj-DUmX_CcNOZ6FLkQ4Os"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
-		
-	</body>
-</html>	
 
+	</body>
+</html>
