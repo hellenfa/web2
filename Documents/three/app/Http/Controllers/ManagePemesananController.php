@@ -56,10 +56,10 @@ class ManagePemesananController extends Controller
     {
         $this->validate($request, [ 
         'name' => 'required', 
-        'nik' => 'required|min:9', 
+        'nim' => 'required|min:9', 
         'no_telp' => 'required|min:9', 
-        'alamat' => 'required',
-        'mobil' => 'required', 
+        'prodi' => 'required',
+        'tgl_pinjam' => 'required',
         ]); 
         $input = $request->all(); 
         $pesan = Pesan::create($input); 
@@ -103,10 +103,10 @@ class ManagePemesananController extends Controller
     {
         $this->validate($request, [ 
         'name' => 'required', 
-        'nik' => 'required|min:9', 
+        'nim' => 'required|min:9', 
         'no_telp' => 'required|min:9', 
-        'alamat' => 'required',
-        'mobil' => 'required', 
+        'prodi' => 'required',
+        'tgl_pinjam' => 'required', 
         ]); 
         $input = $request->all(); 
         $pesan = Pesan::find($id); 

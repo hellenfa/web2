@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/default.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/default.date.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -68,6 +70,20 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('/js/app.js') }}"></script>
+    <script src="{{ asset('/js/jquery.1.7.0.js') }}"></script>
+    <script src="{{ asset('/js/legacy.js') }}"></script>
+    <script src="{{ asset('/js/picker.date.js') }}"></script>
+    <script src="{{ asset('/js/picker.js') }}"></script>
+    <script type="text/javascript">
+            // When the document is ready
+            $(document).ready(function () {
+                
+                $('#example1').datepicker({
+                    format: "dd/mm/yyyy"
+                });  
+            
+            });
+        </script>
 </body>
 </html>

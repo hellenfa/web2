@@ -90,7 +90,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <strong>Sistem Informasi Peminjaman Ruang Departemen TEDI<!-- {{ config('app.name', 'Laravel') }} --></strong>
+                        <strong>Peminjaman TEDI<!-- {{ config('app.name', 'Laravel') }} --></strong>
                     </a>
                 </div>
 

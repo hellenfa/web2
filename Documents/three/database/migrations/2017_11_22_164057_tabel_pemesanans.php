@@ -17,11 +17,11 @@ class TabelPemesanans extends Migration
             Schema::create('pesans', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('name');
-                $table->string('nik')->unique();
-                $table->string('alamat');
+                $table->string('nim')->unique();
                 $table->string('no_telp');
+                $table->string('prodi');
                 $table->date('tgl_pinjam');
-                $table->string('mobil');
+                $table->tinyint('stage')->default('0');
                 $table->timestamps();
             });
 

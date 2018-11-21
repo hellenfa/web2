@@ -19,6 +19,6 @@ $this->middleware('auth:admin');
 */
 public function index()
 {
-return view('admin');
+    return view('admin');
 }
 }

@@ -222,10 +222,10 @@
 				<ul class="nav nav-tabs">
 					<li class="active"><a data-toggle="tab" href="#home">Ruang Sidang Herman Yohanes</a></li>
 
-					<li><a data-toggle="tab" href="#menu2">Ruang Rapat </a></li>
-					<li><a data-toggle="tab" href="#menu3">Laboratorium Komputer</a></li>
-					<li><a data-toggle="tab" href="#menu5">Laboratorium Elektronika</a></li>
-					<li><a data-toggle="tab" href="#menu7">Ruang pertemuan Sekip 4</a></li>
+					<li><a data-toggle="tab" href="#menu1">Ruang Rapat </a></li>
+					<li><a data-toggle="tab" href="#menu2">Laboratorium Komputer</a></li>
+					<li><a data-toggle="tab" href="#menu4">Laboratorium Elektronika</a></li>
+					<li><a data-toggle="tab" href="#menu3">Ruang pertemuan Sekip 4</a></li>
 
 				</ul>
 
