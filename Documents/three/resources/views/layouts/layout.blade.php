@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Sistem Informasi Peminjaman Ruang Departemen TEDI</title>
+        <link href="{{ asset('css/default.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/default.date.css') }}" rel="stylesheet">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -88,7 +90,11 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
+<<<<<<< HEAD
                         <strong>Peminjaman TEDI<!-- {{ config('app.name', 'Laravel') }} --></strong>
+=======
+                        <strong>Sistem Informasi Peminjaman Ruang Departemen TEDI<!-- {{ config('app.name', 'Laravel') }} --></strong>
+>>>>>>> 1b8c77ec1b210e620ebc7a01c8ff87c63603febf
                     </a>
                 </div>
 
@@ -116,5 +122,27 @@
 
             </div>
         </div>
+        <footer>
+        </footer>
+        <script src="{{ asset('js/jquery.1.7.0.js') }}"></script>
+        <script src="{{ asset('js/legacy.js') }}"></script>
+        <script src="{{ asset('js/picker.date.js') }}"></script>
+        <script src="{{ asset('js/picker.js') }}"></script>
+
+
+        <script>
+             $( document ).ready(function() {
+            var $input = $( '.datepicker' ).pickadate({
+                    formatSubmit: 'yyyy-mm-dd',
+                     hiddenName: true,
+                    // min: [2015, 7, 14],
+                    container: '#container',
+                    // editable: true,
+                    closeOnSelect: true,
+                    closeOnClear: false,
+                })
+                var picker = $input.pickadate('picker')
+            });
+          </script>
     </body>
 </html>

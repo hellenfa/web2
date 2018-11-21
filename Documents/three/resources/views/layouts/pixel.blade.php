@@ -47,7 +47,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        Devinka Transport<!-- {{ config('app.name', 'Laravel') }} -->
+                        Sistem Informasi Peminjaman Ruang Departemen TEDI<!-- {{ config('app.name', 'Laravel') }} -->
                     </a>
                 </div>
 
@@ -70,7 +70,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    
+
                                     <li>
                                         @yield('logout')
                                     </li>
@@ -118,7 +118,7 @@
                     <li>
                         <a href="profile.html" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span class="hide-menu">Profile</span></a>
                     </li>
-                
+
             </div>
         </div>
         <!-- Left navbar-header end -->
@@ -128,14 +128,14 @@
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                         <h4 class="page-title">Dashboard</h4> </div>
-                   
+
                     <!-- /.col-lg-12 -->
                 </div>
                 <!-- row -->
                 @yield('content')
-                
+
             <!-- /.container-fluid -->
-            <footer class="footer text-center"> 2017 &copy; Pixel Admin brought to you by wrappixel.com </footer>
+            <footer class="footer text-center"> 2018 &copy; Pixel Admin brought to you by wrappixel.com </footer>
         </div>
         <!-- /#page-wrapper -->
     </div>
@@ -163,7 +163,7 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $.toast({
-            heading: 'Welcome to Devinka Rental',
+            heading: 'Welcome to Sistem Informasi Peminjaman Ruang Departemen TEDI',
             text: 'Dashboard Admin',
             position: 'top-center',
             loaderBg: '#ff6849',

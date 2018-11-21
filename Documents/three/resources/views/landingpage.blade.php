@@ -54,23 +54,27 @@
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
+							<ul class="nav navbar-nav navbar-left">
 								<li><a href="#home-section">Home</a></li>
 								<li><a href="#facilities">Facilities</a></li>
 								<li><a href="#detail-section">What We Offer</a></li>
-								<li><a href="#testimonial-section">Testimoni</a></li>
-								<!--login e-->
+
+								<li><a href="#testimonial-section">Rekomendasi Ruangan</a></li>
+							</ul>
+						
+
+							<ul class="nav navbar-nav navbar-right">
+								<!-- login e-->
 								<li class="has-child"><a href="#blog-section">Member</a>
 									<ul class="sub-menu">
 										<li><a href="blog.html"></a></li>
-										<!--login e-->
+										<!--login e -->
 										<li><a href="login">Login</a></li>
 										<li><a href="register">Register</a></li>
 
 									</ul>
-								</li>
+								</li> -->
 								<li><a href="#contact-section">Contact</a></li>
-
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -130,14 +134,14 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<h3 class="font-white text-center">Diskon 30% untuk penyewaan ke 10 kali</h3>
+							<h3 class="font-white text-center">Dapatkan Kenyamanan Ruangan dengan Kelengkapan Fasilitas Ruangan</h3>
 						</div> <!-- item -->
 						<div class="item">
-							<h3 class="font-white text-center">Nikmati liburan anda dengan Devinka Transport</h3>
+							<h3 class="font-white text-center">Ruangan Selalu Bersih dan Siap untuk Digunakan</h3>
 
 						</div> <!-- item -->
 						<div class="item">
-							<h3 class="font-white text-center">Dapatkan mobil mewah seharga 300K perhari untuk menikmati kota Jogja</h3>
+							<h3 class="font-white text-center">Lokasi Strategis</h3>
 
 						</div> <!-- item -->
 					</div> <!-- carousel-inner -->
@@ -219,19 +223,17 @@
 		<section class="background-light-grey dimention-detail" id="detail-section">
 			<div class="vertical-distance-80"></div>
 			<div class="container">
-				<h2 class="text-center main-title">Car Detail</h2>
-				<p class="text-center sub-title">Pilih Mobil Favoritmu</p>
+				<h2 class="text-center main-title">Detail Ruangan</h2>
+				<p class="text-center sub-title">Pilih Ruangan Yang Anda Butuhkan</p>
 				<div class="vertical-distance-60"></div>
 
 				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Honda Jazz</a></li>
-					<!-- <li><a data-toggle="tab" href="#menu1">Honda Jazz</a></li> -->
-					<li><a data-toggle="tab" href="#menu2">Toyota Avanza</a></li>
-					<li><a data-toggle="tab" href="#menu3">Toyota Xenia</a></li>
-					<!-- <li><a data-toggle="tab" href="#menu4">Toyota Xenia</a></li> -->
-					<li><a data-toggle="tab" href="#menu5">Honda Brio</a></li>
+					<li class="active"><a data-toggle="tab" href="#home">Ruang Sidang Herman Yohanes</a></li>
 
-					<li><a data-toggle="tab" href="#menu7">Kijang Innova</a></li>
+					<li><a data-toggle="tab" href="#menu2">Ruang Rapat </a></li>
+					<li><a data-toggle="tab" href="#menu3">Laboratorium Komputer</a></li>
+					<li><a data-toggle="tab" href="#menu5">Laboratorium Elektronika</a></li>
+					<li><a data-toggle="tab" href="#menu7">Ruang pertemuan Sekip 4</a></li>
 
 				</ul>
 
@@ -267,13 +269,13 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Honda Jazz</h2>
+											<h2>Ruang Sidang Herman Yohanes</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Ruangan sidang dengan kapasaitas 200 orang
 											</p>
-											<h3>Mudah Digunakan</h3>
+											<h3>Ruangan nyaman didukung dnegan fasilitas yang baik</h3>
 											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
+
 											</p>
 											<h3>Comfortable</h3>
 											<p>
@@ -343,7 +345,7 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Honda Jazz</h2>
+											<h2>Ruang Rapat</h2>
 											<p class="dimention-info">
 												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
 											</p>
@@ -426,7 +428,7 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Toyota Avanza</h2>
+											<h2>Laboratorium Komputer</h2>
 											<p class="dimention-info">
 												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
 											</p>
@@ -508,7 +510,7 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Toyota Xenia</h2>
+											<h2>Ruang pertemuan Sekip 4</h2>
 											<p class="dimention-info">
 												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
 											</p>
@@ -590,7 +592,7 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Toyota Xenia</h2>
+											<h2>Laboratorium Elektronika</h2>
 											<p class="dimention-info">
 												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
 											</p>

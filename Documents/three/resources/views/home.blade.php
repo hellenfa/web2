@@ -15,11 +15,11 @@
                         </div>
                     @endif
 
-                    <h4><CENTER>Selamat Datang <strong> MEMBER DEVINKA </strong>!</CENTER>
-                    <p>Setelah menjadi Member dapatkan bonus menarik dan diskon setelah melakukan beberapa transaksi pemesanan. Semua hanya ada di <a href="/">DEVINKA TRANSPORT</a>. </p></h4>
-                        <center><h2><i>Your Journey is Our Priority</i></h2>
+                    <h4><CENTER>Selamat Datang <strong> PEMESAN </strong>!</CENTER>
+                    <p>Cara mudah booking ruangan Departemen TEDI hanya di <a href="/">Sistem Informasi Peminjaman Ruang Departemen TEDI</a>. </p></h4>
+                        <center><h2><i>Booking from Anywhere</i></h2>
                         </center>
-                    
+
                 </div>
 
             </div>
@@ -28,13 +28,13 @@
 </div>
 @endsection
 
-@section('logout') 
-    <a href="{{ route('user.logout') }}" 
-        onclick="event.preventDefault(); 
-        document.getElementById('logout-form').submit();"> 
-        Logout 
-    </a> 
-    <form id="logout-form" action="{{ route('user.logout') }}" method="POST" style="display: none;"> 
-        {{ csrf_field() }} 
-    </form> 
+@section('logout')
+    <a href="{{ route('user.logout') }}"
+        onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();">
+        Logout
+    </a>
+    <form id="logout-form" action="{{ route('user.logout') }}" method="POST" style="display: none;">
+        {{ csrf_field() }}
+    </form>
 @endsection

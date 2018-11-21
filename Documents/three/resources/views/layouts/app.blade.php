@@ -31,7 +31,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        Devinka Transport<!-- {{ config('app.name', 'Laravel') }} -->
+                        Sistem Informasi Peminjaman Ruang Departemen TEDI<!-- {{ config('app.name', 'Laravel') }} -->
                     </a>
                 </div>
 
@@ -54,7 +54,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    
+
                                     <li>
                                         @yield('logout')
                                     </li>
