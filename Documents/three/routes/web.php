@@ -21,9 +21,6 @@ Route::get('/nonmember', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-
 Route::prefix('user')->group(function() {
 	Route::get('/', function () {
 		return view('auth/user');
@@ -36,6 +33,7 @@ Route::prefix('user')->group(function() {
 	});
 	
 });
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

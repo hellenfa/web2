@@ -15,7 +15,6 @@ class PembayaranController extends Controller
         'nik' => 'required|min:9', 
         'no_telp' => 'required|min:9', 
         'alamat' => 'required',
-        'mobil' => 'required', 
         ]); 
         $input = $request->all(); 
         $pesan = Pesan::create($input); 

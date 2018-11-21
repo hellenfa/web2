@@ -9,6 +9,11 @@ use Hash;
 
 class ManageAdminController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:admin');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -16,9 +21,9 @@ class ManageAdminController extends Controller
      */
     public function index(Request $request)
     {
-        $admins = Admin::orderBy('id','DESC')->paginate(5); 
-        return view('manageadmins.index',compact('admins')) 
-        ->with('i', ($request->input('page', 1) - 1) * 5); 
+       $admins = Admin::orderBy('id','DESC')->paginate(5);
+        return view('manageadmins.index',compact('admins'))
+        ->with('i', ($request->input('page', 1) - 1) * 5);
     }
     
 
@@ -41,16 +46,16 @@ class ManageAdminController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [ 
-        'name' => 'required', 
-        'email' => 'required|email|unique:admins,email', 
-        'job_title' => 'required', 
-        'password' => 'required|min:6|same:confirm-password', 
-        ]); 
-        $input = $request->all(); 
-        $input['password'] = Hash::make($input['password']); 
-        $admin = Admin::create($input); 
-        return redirect()->route('manageadmins.index') 
-        ->with('success','Admin berhasil ditambahkan'); 
+            'name' => 'required', 
+            'email' => 'required|email|unique:admins,email', 
+            'job_title' => 'required', 
+            'password' => 'required|min:6|same:confirm-password', 
+            ]); 
+            $input = $request->all(); 
+            $input['password'] = Hash::make($input['password']); 
+            $admin = Admin::create($input); 
+            return redirect()->route('manageadmins.index') 
+            ->with('success','Admin berhasil ditambahkan'); 
     }
 
     /**
@@ -93,10 +98,11 @@ class ManageAdminController extends Controller
         'password' => 'same:confirm-password', 
         ]); 
         $input = $request->all(); 
+
         if(!empty($input['password'])){ 
-        $input['password'] = Hash::make($input['password']); 
+            $input['password'] = Hash::make($input['password']); 
         }else{ 
-        $input = array_except($input,array('password')); 
+            $input = array_except($input,array('password')); 
         } 
         $admin = Admin::find($id); 
         $admin->update($input); 
@@ -115,10 +121,5 @@ class ManageAdminController extends Controller
         Admin::find($id)->delete(); 
         return redirect()->route('manageadmins.index') 
         ->with('success','Admin berhasil dihapus'); 
-    }
-    
-    public function __construct() 
-    { 
-        $this->middleware('auth:admin'); 
     }
 }

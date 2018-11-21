@@ -88,7 +88,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <strong>Devinka Transport<!-- {{ config('app.name', 'Laravel') }} --></strong>
+                        <strong>Peminjaman TEDI<!-- {{ config('app.name', 'Laravel') }} --></strong>
                     </a>
                 </div>
 
