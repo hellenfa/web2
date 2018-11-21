@@ -9,6 +9,7 @@
 	{{ csrf_field() }} 
 	</form> 
 @endsection 
+
 @section('content') 
 	<div class="container"> 
 	<div class="row"> 
@@ -34,8 +35,8 @@
 	</div> 
 	<div class="col-xs-12 col-sm-12 col-md-12"> 
 	<div class="form-group"> 
-	<strong>NIK	:</strong> 
-	{!! Form::text('nik', null, array('placeholder' => 'Nomor Induk Kependudukan','class' => 'form-control')) !!} 
+	<strong>NIM	:</strong> 
+	{!! Form::text('nim', null, array('placeholder' => 'Nomor Induk Mahasiswa','class' => 'form-control')) !!} 
 	</div> 
 	</div> 
 	<div class="col-xs-12 col-sm-12 col-md-12"> 
@@ -46,14 +47,14 @@
 	</div> 
 	<div class="col-xs-12 col-sm-12 col-md-12"> 
 	<div class="form-group"> 
-	<strong>Alamat :</strong> 
-	{!! Form::text('alamat', null, array('placeholder' => 'Alamat','class' => 'form-control')) !!} 
+	<strong>Prodi :</strong> 
+	{!! Form::text('prodi', null, array('placeholder' => 'Prodi','class' => 'form-control')) !!} 
 	</div> 
 	</div> 
 	<div class="col-xs-12 col-sm-12 col-md-12"> 
 	<div class="form-group"> 
-	<strong>Mobil	:</strong> 
-	{!! Form::text('mobil', null, array('placeholder' => '-- Mobil yang Disewa --','class' => 'form-control')) !!} 
+	<strong>Tanggal Pinjam	:</strong> 
+	{!! Form::text('tgl_pinjam', null, array('placeholder' => 'Tanggal Pinjam','class' => 'form-control')) !!} 
 	</div> 
 	</div> 
 	<div class="col-xs-12 col-sm-12 col-md-12 text-center"> 

@@ -39,10 +39,10 @@
 						<tr>
 							<th>No</th>
 							<th>Nama</th>
-							<th>NIK</th>
+							<th>NIM</th>
 							<th>Nomor Telepon</th>
-							<th>Alamat</th>
-							<th>Mobil</th>
+							<th>Prodi</th>
+							<th>Tanggal Pinjam</th>
 							<th width="280px">Action</th>
 						</tr>
 					</thead>
@@ -51,10 +51,10 @@
 							<tr>
 								<td>{{ ++$i }}</td>
 								<td>{{ $pesan->name }}</td>
-								<td>{{ $pesan->nik }}</td>
+								<td>{{ $pesan->nim }}</td>
 								<td>{{ $pesan->no_telp }}</td>
-								<td>{{ $pesan->alamat }}</td>
-								<td>{{ $pesan->mobil }}</td>
+								<td>{{ $pesan->prodi }}</td>
+								<td>{{ $pesan->tgl_pinjam }}</td>
 								<td>
 									<a class="btn btn-info"
 									href="{{ route('pemesanan.show',$pesan->id) }}">Detail</a>

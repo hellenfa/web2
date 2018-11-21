@@ -9,6 +9,7 @@
 	{{ csrf_field() }} 
 	</form> 
 @endsection 
+
 @section('content') 
 <div class="container"> 
 	<div class="row"> 
@@ -22,8 +23,8 @@
 		</div> 
 		<div class="col-xs-12 col-sm-12 col-md-12"> 
 		<div class="form-group"> 
-		<strong>NIK 	:</strong> 
-			{{ $pesan->nik }} 
+		<strong>NIM	:</strong> 
+			{{ $pesan->nim }} 
 		</div> 
 		</div> 
 		<div class="col-xs-12 col-sm-12 col-md-12"> 
@@ -34,14 +35,14 @@
 		</div> 
 		<div class="col-xs-12 col-sm-12 col-md-12"> 
 		<div class="form-group"> 
-		<strong>Alamat 	:</strong> 
-			{{ $pesan->alamat }} 
+		<strong>Prodi 	:</strong> 
+			{{ $pesan->prodi }} 
 		</div> 
 		</div> 
 		<div class="col-xs-12 col-sm-12 col-md-12"> 
 		<div class="form-group"> 
-		<strong>Mobil 	:</strong> 
-			{{ $pesan->mobil }} 
+		<strong>Tanggal Pesan 	:</strong> 
+			{{ $pesan->tgl_pinjam }} 
 		</div> 
 		</div> 
 		</div> 

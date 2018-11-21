@@ -35,8 +35,8 @@
 </div> 
 <div class="col-xs-12 col-sm-12 col-md-12"> 
 <div class="form-group"> 
-<strong>NIK: </strong> 
-{!! Form::text('nik', null, array('placeholder' => 'Nomor Induk Kependudukan','class' => 'form-control')) !!} 
+<strong>NIM: </strong> 
+{!! Form::text('nim', null, array('placeholder' => 'Nomor Induk Mahasiswa','class' => 'form-control')) !!} 
 </div> 
 </div> 
 <div class="col-xs-12 col-sm-12 col-md-12"> 
@@ -47,20 +47,16 @@
 </div> 
 <div class="col-xs-12 col-sm-12 col-md-12"> 
 <div class="form-group"> 
-<strong>Alamat:</strong> 
-{!! Form::text('alamat', null, array('placeholder' => 'Alamat','class' => 'form-control')) !!} 
+<strong>Prodi:</strong> 
+{!! Form::text('prodi', null, array('placeholder' => 'Prodi','class' => 'form-control')) !!} 
 </div> 
 </div> 
-<div class="col-xs-12 col-sm-12 col-md-12"> 
-<div class="form-group"> 
-<strong>Mobil :</strong> 
-{!! 
-	Form::select('mobil', 
-	['Avanza' => 'Avanza', 'Xenia' => 'Xenia', 'Honda Mobilio' => 'Honda Mobilio', 'Honda jazz' => 'Honda Jazz'],
-	 null, ['placeholder' => '-	- Pilih Mobil Anda -	-']);
- !!} 
-</div> 
-</div> 
+<div class="col-xs-12 col-sm-12 col-md-12">
+	<div class="form-group">
+		<strong>Tanggal Peminjaman:</strong>
+		{!! Form::date('tgl_pinjam', null, array('class' => 'form-control')) !!}
+	</div>
+</div>
 <div class="col-xs-12 col-sm-12 col-md-12 text-center"> 
 <button type="submit" class="btn btn-primary">Submit</button> 
 </div> 

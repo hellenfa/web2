@@ -12,9 +12,9 @@ class PembayaranController extends Controller
     {
         $this->validate($request, [ 
         'name' => 'required', 
-        'nik' => 'required|min:9', 
+        'nim' => 'required|min:9', 
         'no_telp' => 'required|min:9', 
-        'alamat' => 'required',
+        'prodi' => 'required',
         ]); 
         $input = $request->all(); 
         $pesan = Pesan::create($input); 
