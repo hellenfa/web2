@@ -80,7 +80,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    devinka transport
+                    Sistem Informasi Peminjaman Ruang Departemen TEDI
                 </div>
 
                 <div class="links">

@@ -53,7 +53,7 @@
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12">
 <div class="form-group">
-<strong>Tanggal Peminjaman:</strong>
+<strong>Tanggal Peminjaman :</strong>
 {!! Form::text('tgl_pinjam', null, array('placeholder' => 'DD/MM/YYYY','class' => 'form-control')) !!}
 </div>
 </div>
