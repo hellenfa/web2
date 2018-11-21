@@ -58,6 +58,12 @@
 	{!! Form::date('tgl_pinjam', null, array('class' => 'form-control')) !!}
 	</div>
 	</div>
+	<div class="col-xs-6 col-sm-6 col-md-12">
+	<div class="form-group">
+	<strong>Ruang :</strong>
+	{!! Form::select('ruang', ['R. Sidang Herman Yohanes' => 'R. Sidang Herman Yohanes', 'Laboratorium Komputer' => 'Laboratorium Komputer', 'Laboratorium Elektronika' => 'Laboratorium Elektronika', 'Laboratorium Multimedia' => 'Laboratorium Multimedia', 'HY T-201' => 'HY T-201'], null, ['placeholder' => '-	- Pilih Ruangan -	-']); !!}
+</div>
+</div>
 	<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 	<button type="submit" class="btn btn-primary">Pesan</button>
 	</div>

@@ -13,17 +13,17 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <a href="pemesanan"> 
+                    <a href="admin/pemesanan"> 
                         <button type="button" class="btn btn-primary">
                             Kelola Pemesanan
                         </button>
                     </a>
-                    <a href="manageadmins"> 
+                    <a href="manageadmins">
                         <button type="button" class="btn btn-danger">
                             Manage Admins
                         </button>
                     </a>
-                    
+
                 </div>
             </div>
         </div>
@@ -31,13 +31,13 @@
 </div>
 @endsection
 
-@section('logout') 
-    <a href="{{ route('admin.logout') }}" 
-        onclick="event.preventDefault(); 
-        document.getElementById('logout-form').submit();"> 
-    Logout 
-    </a> 
-    <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;"> 
-    {{ csrf_field() }} 
-    </form> 
+@section('logout')
+    <a href="{{ route('admin.logout') }}"
+        onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();">
+    Logout
+    </a>
+    <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
+    {{ csrf_field() }}
+    </form>
 @endsection
