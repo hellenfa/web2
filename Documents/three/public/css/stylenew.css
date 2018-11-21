@@ -1,0 +1,6 @@
+element.style {
+}
+
+p.sub-title::after, .icon-type1 i, .background-blue, a.link-light-blue, .icon-type1:hover, .menu .navbar.navbar-default ul.sub-menu, .carousel-indicators li.active, .main-slider .carousel-control.left, .main-slider .carousel-control.right, .documents-btn:hover, .view-on-map-btn:hover, .schedule-visit-btn.white-border:hover, .documents-btn.white-border:hover, .view-on-map-btn.white-border:hover, .room-dimentions-panel.panel-group .panel-heading a, .dimention-caption, .contact-agent-url, input[type="button"], input[type="submit"], .load_more .pagination > li > a:hover, .pagination > li > span:hover, .load_more .pagination > li > a:active, .pagination > li > span:active, .load_more .pagination > li > a:focus, .pagination > li > span:focus, .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover, .get-direction button {
+    background-color: #337ab7;
+}
