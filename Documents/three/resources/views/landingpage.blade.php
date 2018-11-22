@@ -54,6 +54,7 @@
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
 							<ul class="nav navbar-nav navbar-left">
 								<li><a href="#home-section">Home</a></li>
 								<li><a href="#facilities">Facilities</a></li>
@@ -62,19 +63,10 @@
 								<li><a href="#testimonial-section">Rekomendasi Ruangan</a></li>
 							</ul>
 
-
 							<ul class="nav navbar-nav navbar-right">
-								<!-- login e-->
-								<li class="has-child"><a href="#blog-section">Member</a>
-									<ul class="sub-menu">
-										<li><a href="blog.html"></a></li>
-										<!--login e -->
-										<li><a href="login">Login</a></li>
-										<li><a href="register">Register</a></li>
 
-									</ul>
-								</li> -->
-								<li><a href="#contact-section">Contact</a></li>
+								<li><a href="register">Login</a></li>
+								<li><a href="register">Register</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -805,7 +797,7 @@
 										<div class="col-xs-12 col-sm-12 col-md-6">
 											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapsitas : </strong> 30 orang</li>
+												<li><strong>Kapasitas : </strong> 30 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -839,7 +831,7 @@
 							<p class="sub-title left">Kepala Bagian Sarana dan Prasarana DTEDI</p>
 							<div class="vertical-distance-40"></div>
 							<p>
-								Sistem Informasi Peminjaman Ruang DTEDI cara mudah memesan ruangan Departemen TEDI darimana dan kapan saja.
+								Sistem Informasi Peminjaman Ruang DTEDI diharapkan dapat membantu mempermudah pemesanan peminjaman ruangan Departemen TEDI darimana dan kapan saja.
 							</p>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
@@ -887,11 +879,14 @@
 				</div> <!-- container -->
 			</div>
 		</section>
+
+
+
 		<section id='testimonial-section' class="background-light-grey">
 			<div class="vertical-distance-80"></div>
 			<div class="container">
-				<h2 class="main-title text-center">Apa Kata Mereka ?</h2>
-				<p class="sub-title text-center">Real review from the real clients.</p>
+				<h2 class="main-title text-center">REKOMENDASI RUANGAN </h2>
+				<p class="sub-title text-center">Ruangan Paling Sering Dipinjam</p>
 				<div class="vertical-distance-80"></div>
 				<div id="testimonial-slider-carousel" class="carousel slide" data-ride="carousel">
 
@@ -899,101 +894,56 @@
 					<ol class="carousel-indicators">
 						<li data-target="#testimonial-slider-carousel" data-slide-to="0" class="active"></li>
 						<li data-target="#testimonial-slider-carousel" data-slide-to="1"></li>
-						<li data-target="#testimonial-slider-carousel" data-slide-to="2"></li>
 					</ol> <!-- Carousel indicators -->
 
 					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
+					<!-- <div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="images/parallax-background-1.jpg" alt="bedroom">
+							<div class="background-overlay"></div>
+						</div> <!-- item -->
+					<div class="carousel-inner"> <!-- carousel-inner -->
 						<div class="item active">
 							<div class="row">
 								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											 Supirnya  berpengalaman dan berizin resmi sehingga merasa aman dan nyaman.
-										</p>
-										<h4 class="text-right">- Lana Nurona</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
+									<a href="mesan">
+										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
+									</a>
+									<h4 class="text-right">- R. Sidang Herman Yohanes</h4>
 								</div>
 								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Rental mobil di DevInKa juga ada layanan antar jemput gratis dalam Kota Yogyakarta seperti antar ke Bandara, Hotel, Stasiun, Terminal dan tempat lainnya.<
-										</p>
-										<h4 class="text-right">-Irfanuddin</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
+									<a href="mesan">
+										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
+									</a>
+									<h4 class="text-right">- Lab. Multimedia</h4>
 								</div>
 								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Good Job
-										</p>
-										<h4 class="text-right">- Alex</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
+									<a href="mesan">
+										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
+									</a>
+									<h4 class="text-right">- R. Rapat</h4>
 								</div>
 							</div> <!-- row -->
 						</div> <!-- item -->
 						<div class="item">
 							<div class="row">
 								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Lanjutkan!!!
-										</p>
-										<h4 class="text-right">- Sir_Alex</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
+									<a href="mesan">
+										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
+									</a>
+									<h4 class="text-right">- Lab. Elektronika</h4>
 								</div>
 								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Wew..joss nan
-										</p>
-										<h4 class="text-right">- John_Doe</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
+									<a href="mesan">
+										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
+									</a>
+									<h4 class="text-right">- R. T201</h4>
 								</div>
 								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Mantap gan!!!
-										</p>
-										<h4 class="text-right">- Akuu_Indra</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- item -->
-						<div class="item">
-							<div class="row">
-								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Ada Tim Road Assistance yang siap membantu setiap saat apabila mobil yang saya tumpangi mengalami problem teknis di perjalanan, layanan ini juga gratis tanpa ada pungutan biaya.
-										</p>
-										<h4 class="text-right">- Ramadhan Devian</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Tersedia banyak pilihan sesuai kebutuhan saya, mulai dari mobil kapasitas 4 penumpang hingga mobil kapasitas 17 penumpang, mobil angkutan barang hingga mobil mewah semua ada.
-										</p>
-										<h4 class="text-right">- Anugrah Adil</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-4 col-md-4">
-									<div class="what-people-say">
-										<p>
-											Tarif rental mobil yang kami berikan adalah yang paling kompetitif di Jogja, harga lebih murah, terjangkau dan siap dibandingkan dengan rate kompetitor lainnya.
-										</p>
-										<h4 class="text-right">- Wirawan</h4>
-										<img src="images/agent123.jpg" alt="agent">
-									</div>
+									<a href="mesan">
+										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
+									</a>
+									<h4 class="text-right">- Lab. Komputer</h4>
 								</div>
 							</div> <!-- row -->
 						</div> <!-- item -->

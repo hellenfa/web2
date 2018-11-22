@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 27, 2017 at 01:58 AM
--- Server version: 10.1.25-MariaDB
--- PHP Version: 5.6.31
+-- Generation Time: Nov 22, 2018 at 02:13 AM
+-- Server version: 10.1.30-MariaDB
+-- PHP Version: 7.2.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ta_web`
+-- Database: `db_iai`
 --
 
 -- --------------------------------------------------------
@@ -44,7 +44,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `email`, `job_title`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(6, 'paska', 'paskaadil@gmail.com', 'Staf', '$2y$10$tJkeBU42h6INx0UlSXy4zOR7s/rG9B6x0pnERq3brBy7LNdoVJXaG', 'aUqSZohCzeQ2bK1UoOeh0DSdxOWsjf7WPTV8DE79K6azgi06A3EuuDtInW2e', '2017-11-22 07:34:10', '2017-11-22 07:34:10');
+(7, 'Hellen', 'hellen@tes.com', 'Staf', '$2y$10$5OaXxP97ArZ9RyFXZ9RTwOgwyg2qsaVu2q4jjh.KMgCuq42RRFkvW', 'I2FQB9kcLoO2zZbSJsub9BCnAwqukGaHayN83N1xBp3uvyO0fNBkS183WzWO', '2018-11-20 18:59:40', '2018-11-20 18:59:40');
 
 -- --------------------------------------------------------
 
@@ -89,10 +89,11 @@ CREATE TABLE `password_resets` (
 CREATE TABLE `pesans` (
   `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `nik` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `alamat` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `nim` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `prodi` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `no_telp` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `mobil` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tgl_pinjam` date NOT NULL,
+  `ruang` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -101,12 +102,10 @@ CREATE TABLE `pesans` (
 -- Dumping data for table `pesans`
 --
 
-INSERT INTO `pesans` (`id`, `name`, `nik`, `alamat`, `no_telp`, `mobil`, `created_at`, `updated_at`) VALUES
-(5, 'abc', '1213123123123', 'karanganyar', '087835576036', 'Honda Jazz Amiin', '2017-11-23 02:45:46', '2017-11-25 04:00:31'),
-(6, 'paska', '123123123', 'karanganyar', '0878787667', 'avanza', '2017-11-25 09:17:28', '2017-11-25 09:17:28'),
-(13, 'asdsad', '23132232312323', 'dfds', '23232323232323', 'xenia', '2017-11-25 10:12:45', '2017-11-25 10:12:45'),
-(18, 'anugrha', '23742834893', 'karanganyar', '00872132132', 'mobilio', '2017-11-26 04:55:15', '2017-11-26 04:55:15'),
-(19, 'Paska Anugrah Adil', '3313323334232', 'karanganyar', '0873834738928', 'Honda Jazz', '2017-11-26 10:56:05', '2017-11-26 10:56:05');
+INSERT INTO `pesans` (`id`, `name`, `nim`, `prodi`, `no_telp`, `tgl_pinjam`, `ruang`, `created_at`, `updated_at`) VALUES
+(20, 'Hellen Fatima', '16/401030/SV/11534', 'Komsi', '08578261426839', '2018-11-24', '', '2018-11-21 10:27:44', '2018-11-21 10:27:44'),
+(21, 'Trias NRC', '16/399912/SV/10504', 'Elins', '085085063906', '2018-11-30', 'HY T-201', '2018-11-21 10:41:03', '2018-11-21 10:41:03'),
+(22, 'Bagus Utama', '16/401111/SV/11644', 'Elektro', '085785063906', '2018-11-29', 'Laboratorium Elektronika', '2018-11-21 10:50:36', '2018-11-21 10:50:36');
 
 -- --------------------------------------------------------
 
@@ -129,10 +128,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'devian', 'devian@yahoo.com', '$2y$10$5zboONq.gcROF4Zn1qHKauaeCdWesBe.HcBeCSt9G4QLgsCeGZrkO', 'iaTXLoaafkEak5cogQNnO5vLoK0j5arzyyvbEXwXqjtfXkuE5RmqFikUbJBr', '2017-11-19 20:04:50', '2017-11-19 20:04:50'),
-(2, 'paska', 'paskaadil@gmail.com', '$2y$10$53kIJnr5A2naa2X.d2Tww.Wr9OmrBLL.xDAUQRimIPfYa8KGBA3i6', 'AVubOL06QJsPkjVlp10zzD6lhwX9nxb5eQTnZ5eHaBdNTrRZAfZXBzEG0mez', '2017-11-21 02:02:33', '2017-11-21 02:02:33'),
-(3, 'devian', 'devian12@yahoo.com', '$2y$10$vTJjesWJc3XisYQejRo01uADKhlHnI3j2T8SOah/fFoiyvCsBSM7m', 'F4Clrtpx6vRxOFEn1yPdbQUolxYLvrNNwBBxTbq6kgQiRTnMkOygMVgmJtvM', '2017-11-21 21:27:28', '2017-11-21 21:27:28'),
-(4, 'indra', 'indra@gmail.com', '$2y$10$MzKAE0K4JFNZhpTL3JcUmuIJO6F5FBkatyjx0qChoH7aTK5BGzdE6', 'CvILO5P0cR7vkuRYnPOBiRskQ5CqvN2aqZNJEhiK5tNrSjBiiTZwQJpIBLtb', '2017-11-26 11:04:04', '2017-11-26 11:04:04');
+(5, 'Hellen Fatima', 'hellenfatima1505@gmail.com', '$2y$10$9On93OcDMLsx1YAPJhrzIes97D407qMcz7fYCEOYXzpw.TKpsEhHC', NULL, '2018-11-10 21:47:16', '2018-11-10 21:47:16');
 
 --
 -- Indexes for dumped tables
@@ -162,7 +158,7 @@ ALTER TABLE `password_resets`
 --
 ALTER TABLE `pesans`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `pemesanans_nik_unique` (`nik`);
+  ADD UNIQUE KEY `pemesanans_nik_unique` (`nim`);
 
 --
 -- Indexes for table `users`
@@ -179,22 +175,26 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `admins`
 --
 ALTER TABLE `admins`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
 --
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT for table `pesans`
 --
 ALTER TABLE `pesans`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;COMMIT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
