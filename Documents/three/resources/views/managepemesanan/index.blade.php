@@ -43,6 +43,7 @@
 							<th>Nomor Telepon</th>
 							<th>Prodi</th>
 							<th>Tanggal Pinjam</th>
+							<th>Ruangan</th>
 							<th width="280px">Action</th>
 						</tr>
 					</thead>
@@ -54,7 +55,8 @@
 								<td>{{ $pesan->nim }}</td>
 								<td>{{ $pesan->no_telp }}</td>
 								<td>{{ $pesan->prodi }}</td>
-								<td>{{ $pesan->tgl_pinjam }}</td>	
+								<td>{{ $pesan->tgl_pinjam }}</td>
+								<td>{{ $pesan->ruang }}</td>
 								<td>
 									<a class="btn btn-info"
 									href="{{ route('pemesanan.show',$pesan->id) }}">Detail</a>
@@ -71,7 +73,7 @@
 						@endforeach
 					</tbody>
 				</table>
-			
+
             @if ($pesan->count()==0)
             <tr>
                 <td colspan="5">No data to display.</td>

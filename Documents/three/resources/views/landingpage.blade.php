@@ -65,6 +65,7 @@
 
 							<ul class="nav navbar-nav navbar-right">
 
+<<<<<<< HEAD
 								<!-- Authentication Links -->
 								@if (Auth::guest())
 									<li><a href="{{ route('login') }}">Login</a></li>
@@ -89,6 +90,10 @@
 									</li>
                         		@endif
 
+=======
+								<li><a href="register">Login</a></li>
+								<li><a href="register">Register</a></li>
+>>>>>>> 578f1a3d336f061993da2d97b8fd3486f37ec29d
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -241,13 +246,16 @@
 				<p class="text-center sub-title">Pilih Ruangan Yang Anda Butuhkan</p>
 				<div class="vertical-distance-60"></div>
 
-				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Ruang Sidang Herman Yohanes</a></li>
 
-					<li><a data-toggle="tab" href="#menu1">Ruang Rapat </a></li>
-					<li><a data-toggle="tab" href="#menu2">Laboratorium Komputer</a></li>
-					<li><a data-toggle="tab" href="#menu4">Laboratorium Elektronika</a></li>
-					<li><a data-toggle="tab" href="#menu3">Ruang pertemuan Sekip 4</a></li>
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#home">R.Sidang</a></li>
+					<li><a data-toggle="tab" href="#menu2">R.Pertemuan </a></li>
+					<li><a data-toggle="tab" href="#menu3">Lab.Komputer</a></li>
+					<li><a data-toggle="tab" href="#menu4">Lab.Elektronika</a></li>
+					<li><a data-toggle="tab" href="#menu5">R.Kelas U 202</a></li>
+					<li><a data-toggle="tab" href="#menu6">Lab Grafika</a></li>
+					<li><a data-toggle="tab" href="#menu7">R.Kelas S 100</a></li>
+					<li><a data-toggle="tab" href="#menu8">Hall</a></li>
 
 				</ul>
 
@@ -283,18 +291,17 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Ruang Sidang Herman Yohanes</h2>
+											<h2>R. Sidang</h2>
 											<p class="dimention-info">
-												Ruangan sidang dengan kapasaitas 200 orang
+												Ruang Sidang Gedung Herman Yohanes T 201
 											</p>
-											<h3>Ruangan nyaman didukung dnegan fasilitas yang baik</h3>
-											<p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 200 kursi, meja sidang,proyektor, papan tulis	</p>
+											<p>- Dapat didekorasi	</p>
+											<p>- listrik 1200 watt</p>
+											<p>- Ekstra sound dan mixer</p>
 
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -304,19 +311,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
 
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Layanan Lokal</label>
+											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> Rp 300.000</li>
-												<li><strong>Extra Kms. :- </strong> 12.000 per km </li>
+												<li><strong>Kapsitas : </strong> 200 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -328,7 +333,7 @@
 						</div> <!-- container- fluid -->
 						<div class="vertical-distance-20"></div>
 					</div>
-					<div id="menu1" class="tab-pane fade">
+					<div id="menu2" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -359,20 +364,18 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Ruang Rapat</h2>
+											<h2>R.pertemuan</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Ruang Pertemuan Gedung Herman Yohanes U 101
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+											<p>- Dapat didekorasi	</p>
+											<p>- listrik 1200 watt</p>
+											<p>- Ekstra sound dan mixer</p>
 
+											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -381,25 +384,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
+
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
+											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
+												<li><strong>Kapsitas : </strong> 30 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -411,7 +406,7 @@
 						</div> <!-- container- fluid -->
 						<div class="vertical-distance-20"></div>
 					</div>
-					<div id="menu2" class="tab-pane fade">
+					<div id="menu3" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -442,18 +437,15 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Laboratorium Komputer</h2>
+											<h2>Lab. Komputer</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Laboratorium Komputer dan Sistem Informasi
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan praktikum, belajar	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 20 kursi,proyektor, papan tulis	</p>
+											<p>- Dilengkapi komputer 	</p>
+
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -463,28 +455,18 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
 
+										<div class="col-xs-12 col-sm-12 col-md-6">
+											<label class="amenities-label">Ketentuan Umum</label>
+											<ul class="amenities-list background-light-grey">
+												<li><strong>Kapsitas : </strong> 30 orang</li>
+											</ul>
 										</div>
 									</div>
 									<div class="vertical-distance-10"></div>
@@ -493,7 +475,7 @@
 						</div> <!-- container- fluid -->
 						<div class="vertical-distance-20"></div>
 					</div>
-					<div id="menu3" class="tab-pane fade">
+					<div id="menu4" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -524,18 +506,15 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Ruang pertemuan Sekip 4</h2>
+											<h2>Lab. Elektronika</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Laboratorium Elektronika dan Instrumentasi
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan praktikum, belajar	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 20 kursi,proyektor, papan tulis	</p>
+											<p>- Dilengkapi komputer 	</p>
+
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -545,25 +524,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
+
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
+											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
+												<li><strong>Kapsitas : </strong> 30 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -575,7 +546,7 @@
 						</div> <!-- container- fluid -->
 						<div class="vertical-distance-20"></div>
 					</div>
-					<div id="menu4" class="tab-pane fade">
+					<div id="menu5" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -606,18 +577,17 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Laboratorium Elektronika</h2>
+											<h2>Ruang Kelas U 202</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Ruang Pertemuan Gedung Herman Yohanes U 101
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+											<p>- Dapat didekorasi	</p>
+											<p>- listrik 1200 watt</p>
+											<p>- Ekstra sound dan mixer</p>
+
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -627,25 +597,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
+
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
+											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
+												<li><strong>Kapsitas : </strong> 30 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -657,7 +619,7 @@
 						</div> <!-- container- fluid -->
 						<div class="vertical-distance-20"></div>
 					</div>
-					<div id="menu5" class="tab-pane fade">
+					<div id="menu6" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -688,18 +650,17 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Honda Brio</h2>
+											<h2>Laboratorium Grafika</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Ruang Pertemuan Gedung Herman Yohanes U 101
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+											<p>- Dapat didekorasi	</p>
+											<p>- listrik 1200 watt</p>
+											<p>- Ekstra sound dan mixer</p>
+
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -709,11 +670,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+											</ul>
+										</div>
 
+										<div class="col-xs-12 col-sm-12 col-md-6">
+											<label class="amenities-label">Ketentuan Umum</label>
+											<ul class="amenities-list background-light-grey">
+												<li><strong>Kapsitas : </strong> 30 orang</li>
 											</ul>
 										</div>
 									<div class="vertical-distance-10"></div>
@@ -723,7 +690,7 @@
 						<div class="vertical-distance-20"></div>
 					</div>
 				</div>
-					<div id="menu6" class="tab-pane fade">
+					<div id="menu7" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -754,18 +721,17 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Kijang Innova</h2>
+											<h2>Ruang Kelas S 100</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Ruang Pertemuan Gedung Herman Yohanes U 101
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+											<p>- Dapat didekorasi	</p>
+											<p>- listrik 1200 watt</p>
+											<p>- Ekstra sound dan mixer</p>
+
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -775,25 +741,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
+
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
+											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
+												<li><strong>Kapsitas : </strong> 30 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -805,7 +763,7 @@
 						</div> <!-- container- fluid -->
 						<div class="vertical-distance-20"></div>
 					</div>
-					<div id="menu7" class="tab-pane fade">
+					<div id="menu8" class="tab-pane fade">
 						<div class="vertical-distance-20"></div>
 						<div class="container-fluid">
 							<div class="row background-white">
@@ -836,18 +794,17 @@
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Kijang Innova</h2>
+											<h2>Hall</h2>
 											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
+												Ruang Pertemuan Gedung Herman Yohanes U 101
 											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
+											<h3>Informasi</h3>
+											<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+											<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+											<p>- Dapat didekorasi	</p>
+											<p>- listrik 1200 watt</p>
+											<p>- Ekstra sound dan mixer</p>
+
 											<div class="vertical-distance-20"></div>
 										</div>
 									</div>
@@ -857,25 +814,17 @@
 									<div class="vertical-distance-20"></div>
 									<div class="row">
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
+											<label class="amenities-label">Waktu Peminjaman</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
-
+												<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+												<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
 											</ul>
 										</div>
+
 										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
+											<label class="amenities-label">Ketentuan Umum</label>
 											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
+												<li><strong>Kapasitas : </strong> 30 orang</li>
 											</ul>
 											<div class="vertical-distance-20"></div>
 
@@ -909,7 +858,7 @@
 							<p class="sub-title left">Kepala Bagian Sarana dan Prasarana DTEDI</p>
 							<div class="vertical-distance-40"></div>
 							<p>
-								Sistem Informasi Peminjaman Ruang DTEDI cara mudah memesan ruangan Departemen TEDI darimana dan kapan saja.
+								Sistem Informasi Peminjaman Ruang DTEDI diharapkan dapat membantu mempermudah pemesanan peminjaman ruangan Departemen TEDI darimana dan kapan saja.
 							</p>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">

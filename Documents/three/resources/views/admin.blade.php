@@ -13,7 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
+<<<<<<< HEAD
                     <a href="admin/pemesanan">
+=======
+                    <a href="admin/pemesanan"> 
+>>>>>>> 578f1a3d336f061993da2d97b8fd3486f37ec29d
                         <button type="button" class="btn btn-primary">
                             Kelola Pemesanan
                         </button>
@@ -40,4 +44,8 @@
     <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
     {{ csrf_field() }}
     </form>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 578f1a3d336f061993da2d97b8fd3486f37ec29d

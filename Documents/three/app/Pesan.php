@@ -21,7 +21,7 @@ class Pesan extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'nim', 'prodi', 'no_telp', 'tgl_pinjam',
+        'name', 'nim', 'prodi', 'no_telp', 'tgl_pinjam', 'ruang',
     ];
 
     /**
