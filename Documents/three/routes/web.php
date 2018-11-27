@@ -31,7 +31,7 @@ Route::prefix('user')->group(function() {
 	Route::get('/register', function () {
 		return view('auth/register');
 	});
-	
+	Route::get('/mesan', 'MesanController@index');
 });
 
 Auth::routes();
@@ -48,9 +48,6 @@ Route::prefix('admin')->group(function() {
 	Route::resource('pemesanan', 'ManagePemesananController');
 });
 
-Route::get('/mesan', function() {
-	return view('mesan');
-});
 Route::post('/pembayaran', 'PembayaranController@store')->name('pembayaran');
 
 Route::get('/pembayaran', function() {
