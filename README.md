@@ -1,2 +1,2 @@
-# web2
-PA Web 2
+# TA WEB 2
+Sistem Informasi Peminjaman Ruang DTEDI
