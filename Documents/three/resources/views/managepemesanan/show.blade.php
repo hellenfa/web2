@@ -41,8 +41,14 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12">
 		<div class="form-group">
-		<strong>Tanggal Pesan 	:</strong>
-			{{ $pesan->tgl_pinjam }}
+		<strong>Tanggal Mulai 	:</strong>
+			{{ $pesan->tgl_mulai }}
+		</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="form-group">
+		<strong>Tanggal selesai 	:</strong>
+			{{ $pesan->tgl_selesai }}
 		</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12">

@@ -17,14 +17,14 @@
 	<div class="col-md-8 col-md-offset-2">
 	<center><h1>Form Peminjaman</h1> </center>
 	@if (count($errors) > 0)
-	<div class="alert alert-danger">
-	<strong>Sorry!</strong> Something wrong with your input data.<br><br>
-	<ul>
-	@foreach ($errors->all() as $error)
-	<li>{{ $error }}</li>
-	@endforeach
-	</ul>
-	</div>
+		<div class="alert alert-danger">
+			<strong>Sorry!</strong> Something wrong with your input data.<br><br>
+			<ul>
+				@foreach ($errors->all() as $error)
+				<li>{{ $error }}</li>
+				@endforeach
+			</ul>
+		</div>
 	@endif
 	{!! Form::open(array('route' => 'pembayaran','method'=>'POST')) !!}
 	<div class="row">
@@ -52,10 +52,16 @@
 	{!! Form::text('prodi', null, array('placeholder' => 'Prodi','class' => 'form-control')) !!}
 	</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12">
+	<div class="col-xs-12 col-sm-12 col-md-6">
 	<div class="form-group">
-	<strong>Tanggal Peminjaman:</strong>
-	{!! Form::date('tgl_pinjam', null, array('class' => 'form-control')) !!}
+	<strong>Tanggal Mulai:</strong>
+	{!! Form::text('tgl_mulai', '', array('class' => 'form-control')) !!}
+	</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6">
+	<div class="form-group">
+	<strong>Tanggal Selesai:</strong>
+	{!! Form::text('tgl_selesai', '', array('class' => 'form-control')) !!}
 	</div>
 	</div>
 	<div class="col-xs-6 col-sm-6 col-md-12">

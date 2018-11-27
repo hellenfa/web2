@@ -75,15 +75,34 @@
     <script src="{{ asset('/js/legacy.js') }}"></script>
     <script src="{{ asset('/js/picker.date.js') }}"></script>
     <script src="{{ asset('/js/picker.js') }}"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <script type="text/javascript">
-            // When the document is ready
-            $(document).ready(function () {
-                
-                $('#example1').datepicker({
-                    format: "dd/mm/yyyy"
-                });  
-            
+        $(function() {
+            $('input[name="tgl_mulai"]').daterangepicker({
+                singleDatePicker: true,
+                timePicker: true,
+                timePicker24Hour: true,
+                startDate: moment().startOf('hour'),
+                endDate: moment().startOf('hour').add(32, 'hour'),
+                locale: {
+                    format: 'YYYY-MM-DD HH:MM:SS'
+                }
             });
-        </script>
+
+            $('input[name="tgl_selesai"]').daterangepicker({
+                singleDatePicker: true,
+                timePicker: true,
+                timePicker24Hour: true,
+                startDate: moment().startOf('hour'),
+                endDate: moment().startOf('hour').add(32, 'hour'),
+                locale: {
+                    format: 'YYYY-MM-DD HH:MM:SS'
+                }
+            });
+        });
+    </script>
 </body>
 </html>

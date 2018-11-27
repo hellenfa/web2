@@ -51,10 +51,16 @@
 	{!! Form::text('prodi', null, array('placeholder' => 'Prodi','class' => 'form-control')) !!}
 	</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12">
+	<div class="col-xs-12 col-sm-12 col-md-6">
 	<div class="form-group">
-	<strong>Tanggal Pinjam	:</strong>
-	{!! Form::text('tgl_pinjam', null, array('placeholder' => 'Tanggal Pinjam','class' => 'form-control')) !!}
+	<strong>Tanggal Mulai	:</strong>
+	{!! Form::text('tgl_mulai', null, array('class' => 'form-control')) !!}
+	</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6">
+	<div class="form-group">
+	<strong>Tanggal Selesai	:</strong>
+	{!! Form::text('tgl_selesai', null, array('class' => 'form-control')) !!}
 	</div>
 	</div>
 	<div class="col-xs-6 col-sm-6 col-md-12">
@@ -62,7 +68,7 @@
 	<strong>Ruang :</strong>
 	{!! Form::select('ruang', ['R. Sidang Herman Yohanes' => 'R. Sidang Herman Yohanes', 'Ruang Pertemuan' => 'Ruang Pertemuan', 'Laboratorium Komputer' => 'Laboratorium Komputer', 'Laboratorium Elektronika' => 'Laboratorium Elektronika', 'Laboratorium Multimedia' => 'Laboratorium Multimedia', 'Ruang Kelas U 202' => 'Ruang Kelas U 202', 'Laboratorium Grafika' => 'Laboratorium Grafika', 'Ruang Kelas S 100' => 'Ruang Kelas S 100', 'HALL' => 'HALL'], null, ['placeholder' => '-	- Pilih Ruangan -	-']); !!}
 </div>
-</div> 
+</div>
 	<div class="col-xs-12 col-sm-12 col-md-12 text-center">
 	<button type="submit" class="btn btn-primary">Submit</button>
 	</div>

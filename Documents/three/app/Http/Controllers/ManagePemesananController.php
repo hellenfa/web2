@@ -59,7 +59,9 @@ class ManagePemesananController extends Controller
         'nim' => 'required|min:9',
         'no_telp' => 'required|min:9',
         'prodi' => 'required',
-        'tgl_pinjam' => 'required',
+        'tgl_mulai' => 'required',
+        'tgl_selesai' => 'required',
+        'ruang' => 'required'
         ]);
         $input = $request->all();
         $pesan = Pesan::create($input);
@@ -106,7 +108,9 @@ class ManagePemesananController extends Controller
         'nim' => 'required|min:9',
         'no_telp' => 'required|min:9',
         'prodi' => 'required',
-        'tgl_pinjam' => 'required',
+        'tgl_mulai' => 'required',
+        'tgl_selesai' => 'required',
+        'ruang' => 'required'
         ]);
         $input = $request->all();
         $pesan = Pesan::find($id);

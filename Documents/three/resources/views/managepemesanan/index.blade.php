@@ -42,7 +42,8 @@
 							<th>NIM</th>
 							<th>Nomor Telepon</th>
 							<th>Prodi</th>
-							<th>Tanggal Pinjam</th>
+							<th>Tanggal Mulai</th>
+							<th>Tanggal Selesai</th>
 							<th>Ruangan</th>
 							<th width="280px">Action</th>
 						</tr>
@@ -55,7 +56,8 @@
 								<td>{{ $pesan->nim }}</td>
 								<td>{{ $pesan->no_telp }}</td>
 								<td>{{ $pesan->prodi }}</td>
-								<td>{{ $pesan->tgl_pinjam }}</td>
+								<td>{{ $pesan->tgl_mulai }}</td>
+								<td>{{ $pesan->tgl_selesai }}</td>
 								<td>{{ $pesan->ruang }}</td>
 								<td>
 									<a class="btn btn-info"

@@ -51,10 +51,16 @@
 {!! Form::text('prodi', null, array('placeholder' => 'Prodi','class' => 'form-control')) !!}
 </div>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="col-xs-12 col-sm-12 col-md-6">
 	<div class="form-group">
-		<strong>Tanggal Peminjaman:</strong>
-		{!! Form::date('tgl_pinjam', null, array('class' => 'form-control')) !!}
+		<strong>Tanggal Mulai:</strong>
+		{!! Form::text('tgl_mulai', null, array('class' => 'form-control')) !!}
+	</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6">
+	<div class="form-group">
+		<strong>Tanggal Selesai:</strong>
+		{!! Form::text('tgl_selesai', null, array('class' => 'form-control')) !!}
 	</div>
 </div>
 <div class="col-xs-6 col-sm-6 col-md-12">
