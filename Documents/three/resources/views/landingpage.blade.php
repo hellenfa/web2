@@ -60,7 +60,7 @@
 								<li><a href="#facilities">Facilities</a></li>
 								<li><a href="#detail-section">What We Offer</a></li>
 
-								<li><a href="#testimonial-section">Rekomendasi Ruangan</a></li>
+								<li><a href="#testimonial-section">Recommendation</a></li>
 							</ul>
 
 							<ul class="nav navbar-nav navbar-right">
@@ -242,655 +242,668 @@
 				<div class="vertical-distance-60"></div>
 
 				<ul class="nav nav-tabs">
-					<li class="active"><a data-toggle="tab" href="#home">Ruang Sidang Herman Yohanes</a></li>
+					<li class="active"><a data-toggle="tab" href="#home">R. Sidang</a></li>
 
-					<li><a data-toggle="tab" href="#menu1">Ruang Rapat </a></li>
-					<li><a data-toggle="tab" href="#menu2">Laboratorium Komputer</a></li>
-					<li><a data-toggle="tab" href="#menu4">Laboratorium Elektronika</a></li>
-					<li><a data-toggle="tab" href="#menu3">Ruang pertemuan Sekip 4</a></li>
+					<li><a data-toggle="tab" href="#menu2">R. Pertemuan </a></li>
+					<li><a data-toggle="tab" href="#menu3">Lab. Komp</a></li>
+					<li><a data-toggle="tab" href="#menu4">Lab. Elektronika</a></li>
+					<li><a data-toggle="tab" href="#menu1">Lab. Mulmed</a></li>
+					<li><a data-toggle="tab" href="#menu5">R.U202</a></li>
+					<li><a data-toggle="tab" href="#menu6">Lab. Grafika</a></li>
+					<li><a data-toggle="tab" href="#menu7">R.S100</a></li>
+					<li><a data-toggle="tab" href="#menu8">Hall</a></li>
 
 				</ul>
 
 				<div class="tab-content">
-					<div id="home" class="tab-pane fade in active">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
+						<div id="home" class="tab-pane fade in active">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
 
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>R. Sidang</h2>
+												<p class="dimention-info">
+													Ruang Sidang Gedung Herman Yohanes T 201
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan untuk sidang, pertemuan rapat besar .	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 200 kursi, meja sidang,proyektor, papan tulis	</p>
+												<p>- Dapat didekorasi	</p>
+												<p>- listrik 1200 watt</p>
+												<p>- Ekstra sound dan mixer</p>
+
+												<div class="vertical-distance-20"></div>
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Ruang Sidang Herman Yohanes</h2>
-											<p class="dimention-info">
-												Ruangan sidang dengan kapasaitas 200 orang
-											</p>
-											<h3>Ruangan nyaman didukung dnegan fasilitas yang baik</h3>
-											<p>
-
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
 
-											</ul>
-										</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 200 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
 
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Layanan Lokal</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> Rp 300.000</li>
-												<li><strong>Extra Kms. :- </strong> 12.000 per km </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
-
-										</div>
-									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-					<div id="menu1" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel1" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel1" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel1" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel1" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
-
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Ruang Rapat</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+						<div id="menu2" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel1" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel1" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel1" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel1" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
 
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>R.pertemuan</h2>
+												<p class="dimention-info">
+													Ruang Pertemuan Gedung Herman Yohanes U 101
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan untuk sidang, pertemuan rapat kecil .	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+												<p>- Dapat didekorasi	</p>
+												<p>- listrik 1200 watt</p>
+												<p>- Ekstra sound dan mixer</p>
 
-										</div>
-									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-					<div id="menu2" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel2" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel2" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel2" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel2" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
-
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
+												<div class="vertical-distance-20"></div>
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Laboratorium Komputer</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
 
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 30 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
 
-										</div>
-									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-					<div id="menu3" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel3" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel3" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel3" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel3" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
-
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Ruang pertemuan Sekip 4</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+						<div id="menu3" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel2" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel2" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel2" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel2" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
 
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Lab. Komputer</h2>
+												<p class="dimention-info">
+													Laboratorium Komputer dan Sistem Informasi
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan praktikum, belajar	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 20 kursi,proyektor, papan tulis	</p>
+												<p>- Dilengkapi komputer 	</p>
 
-										</div>
-									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-					<div id="menu4" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel4" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel4" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel4" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel4" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
-
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
+												<div class="vertical-distance-20"></div>
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Laboratorium Elektronika</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
 
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
-
-										</div>
-									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-					<div id="menu5" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel5" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel5" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel5" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel5" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
-
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 20 orang</li>
+												</ul>
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Honda Brio</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+						<div id="menu4" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel3" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel3" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel3" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel3" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
 
-											</ul>
-										</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-				</div>
-					<div id="menu6" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel6" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel6" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel6" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel6" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Lab. Elektronika</h2>
+												<p class="dimention-info">
+													Laboratorium Elektronika dan Instrumentasi
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan praktikum, belajar	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 20 kursi,proyektor, papan tulis	</p>
+												<p>- Dilengkapi separepart elektronika 	</p>
 
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
+												<div class="vertical-distance-20"></div>
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Kijang Innova</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
 
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 20 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
 
-										</div>
-									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
-					</div>
-					<div id="menu7" class="tab-pane fade">
-						<div class="vertical-distance-20"></div>
-						<div class="container-fluid">
-							<div class="row background-white">
-								<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<div class="vertical-distance-20"></div>
-											<div id="bedroom-slider-carousel7" class="carousel slide" data-ride="carousel">
-												<!-- Indicators -->
-												<ol class="carousel-indicators">
-													<li data-target="#bedroom-slider-carousel7" data-slide-to="0" class="active"></li>
-													<li data-target="#bedroom-slider-carousel7" data-slide-to="1"></li>
-													<li data-target="#bedroom-slider-carousel7" data-slide-to="2"></li>
-												</ol> <!-- Carousel indicators -->
-
-												<!-- Wrapper for slides -->
-												<div class="carousel-inner" role="listbox">
-													<div class="item active">
-														<img src="images/slider1.png" alt="bedroom">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider2.png" alt="bedroom2">
-													</div> <!-- item -->
-													<div class="item">
-														<img src="images/slider3.png" alt="bedroom3">
-													</div> <!-- item -->
-												</div> <!-- carousel-inner -->
 											</div>
 										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<h2>Kijang Innova</h2>
-											<p class="dimention-info">
-												Rasakan sensasi mengemudi yang lebih nyaman, karena kualitas mobil kami selalu kami jaga dan selalu servis tepat waktu
-											</p>
-											<h3>Mudah Digunakan</h3>
-											<p>
-												Tersedia berbagai pilihan mobil sesuai yang anda butuhkan, bisa manual maupun matic.
-											</p>
-											<h3>Comfortable</h3>
-											<p>
-												Rasakan kenyamanan, dan kebersihan karena kami selalu menjaga kebersihan mobil.
-											</p>
-											<div class="vertical-distance-20"></div>
-										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12">
-									<div class="vertical-distance-20"></div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Paket Layanan</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Kapasitas :- </strong> 4 + 1 </li>
-												<li><strong>Biaya :- </strong> Rp 250.000/hari </li>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
 
-											</ul>
-										</div>
-										<div class="col-xs-12 col-sm-12 col-md-6">
-											<label class="amenities-label">Local Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>8 Hrs / 80 Kms. :- </strong> 1300$</li>
-												<li><strong>Extra Kms. :- </strong> 7$ per km </li>
-												<li><strong>Extra Hrs. :- </strong> 50$. </li>
-											</ul>
-											<label class="amenities-label">Airtport Services</label>
-											<ul class="amenities-list background-light-grey">
-												<li><strong>Airport Duty :- </strong> 500$</li>
-												<li><strong>Waiting Time :- </strong> 30 min.</li>
-												<li><strong>Driver Allownce :- </strong> 0 </li>
-											</ul>
-											<div class="vertical-distance-20"></div>
+						<div id="menu1" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel3" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel3" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel3" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel3" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
 
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Lab. Multimedia</h2>
+												<p class="dimention-info">
+													Laboratorium Multimedia
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan praktikum, belajar	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 20 kursi,proyektor, papan tulis	</p>
+												<p>- Dilengkapi komputer sesuai 	</p>
+
+												<div class="vertical-distance-20"></div>
+											</div>
 										</div>
+										<div class="vertical-distance-10"></div>
 									</div>
-									<div class="vertical-distance-10"></div>
-								</div>
-							</div> <!-- row -->
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
 
-						</div> <!-- container- fluid -->
-						<div class="vertical-distance-20"></div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 20 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
+
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+
+						<div id="menu5" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel4" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel4" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel4" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel4" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Ruang Kelas U 202</h2>
+												<p class="dimention-info">
+													Ruang Kelas U 202 Herman Yohanes
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan untuk sidang, pertemuan rapat besar, kelas .	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 80 kursi,proyektor, papan tulis	</p>
+												<p>- Dapat didekorasi	</p>
+												<p>- Sound dan mic</p>
+
+												<div class="vertical-distance-20"></div>
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
+
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 80 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
+
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+						<div id="menu6" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel5" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel5" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel5" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel5" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Laboratorium Grafika</h2>
+												<p class="dimention-info">
+													Laboratorium Grafika
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan untuk praktikum .	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+												<p>- Separepart praktikum elektro kelistrikan</p>
+
+												<div class="vertical-distance-20"></div>
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
+
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 30 orang</li>
+												</ul>
+											</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+					</div>
+						<div id="menu7" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel6" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel6" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel6" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel6" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Ruang Kelas S 100</h2>
+												<p class="dimention-info">
+													Ruang Kelas Gedung Herman Yohanes S 100
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan untuk sidang, pertemuan kecil, kelas belajar .	</p>
+												<p>- Ruangan ber-ac dilengkapi dengan 30 kursi,proyektor, papan tulis	</p>
+												<p>- Dapat didekorasi	</p>
+												<p>- listrik 1200 watt</p>
+												<p>- Ekstra sound dan mixer</p>
+
+												<div class="vertical-distance-20"></div>
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
+
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 30 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
+
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+								</div> <!-- row -->
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+						</div>
+						<div id="menu8" class="tab-pane fade">
+							<div class="vertical-distance-20"></div>
+							<div class="container-fluid">
+								<div class="row background-white">
+									<div class="col-xs-12 col-sm-12 col-md-12 dimention-image">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<div class="vertical-distance-20"></div>
+												<div id="bedroom-slider-carousel7" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#bedroom-slider-carousel7" data-slide-to="0" class="active"></li>
+														<li data-target="#bedroom-slider-carousel7" data-slide-to="1"></li>
+														<li data-target="#bedroom-slider-carousel7" data-slide-to="2"></li>
+													</ol> <!-- Carousel indicators -->
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner" role="listbox">
+														<div class="item active">
+															<img src="images/slider1.png" alt="bedroom">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider2.png" alt="bedroom2">
+														</div> <!-- item -->
+														<div class="item">
+															<img src="images/slider3.png" alt="bedroom3">
+														</div> <!-- item -->
+													</div> <!-- carousel-inner -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<h2>Hall</h2>
+												<p class="dimention-info">
+												Hall Gedung Herman Yohanes
+												</p>
+												<h3>Informasi</h3>
+												<p>- Cocok digunakan untuk , pertemuan rapat besar .	</p>
+												<p>- Ruangan terbuka	</p>
+												<p>- Dapat didekorasi	</p>
+
+												<div class="vertical-distance-20"></div>
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="vertical-distance-20"></div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Waktu Peminjaman</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Hari Senin-Jumat: </strong>  17.00 - 21.00</li>
+													<li><strong>Hari Sabtu-Minggu :</strong> 07.00 - 21.00 </li>
+												</ul>
+											</div>
+
+											<div class="col-xs-12 col-sm-12 col-md-6">
+												<label class="amenities-label">Ketentuan Umum</label>
+												<ul class="amenities-list background-light-grey">
+													<li><strong>Kapsitas : </strong> 500 orang</li>
+												</ul>
+												<div class="vertical-distance-20"></div>
+
+											</div>
+										</div>
+										<div class="vertical-distance-10"></div>
+									</div>
+								</div> <!-- row -->
+
+							</div> <!-- container- fluid -->
+							<div class="vertical-distance-20"></div>
+
+						</div>
 
 					</div>
-
-				</div>
 				<center><a href="/user/mesan" class="documents-btn">PESAN<i class="fa fa-calendar" aria-hidden="true"></i></a> </center>
 				<div class="vertical-distance-20"></div>
 			</div>
@@ -963,7 +976,7 @@
 		<section id='testimonial-section' class="background-light-grey">
 			<div class="vertical-distance-80"></div>
 			<div class="container">
-				<h2 class="main-title text-center">REKOMENDASI RUANGAN </h2>
+				<h2 class="main-title text-center">RECOMMENDATION </h2>
 				<p class="sub-title text-center">Ruangan Paling Sering Dipinjam</p>
 				<div class="vertical-distance-80"></div>
 				<div id="testimonial-slider-carousel" class="carousel slide" data-ride="carousel">
@@ -1015,7 +1028,7 @@
 									<a href="mesan">
 										<img src="images/parallax-background-1.jpg" style="margin: 20px; width: 350px; height: 350px;" >
 									</a>
-									<h4 class="text-right">- R. T201</h4>
+									<h4 class="text-right">- R.Sidang Herman Yohanes</h4>
 								</div>
 								<div class="col-xs-12 col-sm-4 col-md-4">
 									<a href="mesan">

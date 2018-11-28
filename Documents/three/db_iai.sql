@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 22, 2018 at 02:13 AM
+-- Generation Time: Nov 27, 2018 at 01:38 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -44,7 +44,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `email`, `job_title`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(7, 'Hellen', 'hellen@tes.com', 'Staf', '$2y$10$5OaXxP97ArZ9RyFXZ9RTwOgwyg2qsaVu2q4jjh.KMgCuq42RRFkvW', 'I2FQB9kcLoO2zZbSJsub9BCnAwqukGaHayN83N1xBp3uvyO0fNBkS183WzWO', '2018-11-20 18:59:40', '2018-11-20 18:59:40');
+(7, 'Hellen', 'hellen@tes.com', 'Staf', '$2y$10$5OaXxP97ArZ9RyFXZ9RTwOgwyg2qsaVu2q4jjh.KMgCuq42RRFkvW', 'xJfARhp67H71hNqq9sBH1ASDAfMbYc5hMPGK1g4OGddSHS51A3x1lnfPM36j', '2018-11-20 18:59:40', '2018-11-20 18:59:40');
 
 -- --------------------------------------------------------
 
@@ -104,8 +104,9 @@ CREATE TABLE `pesans` (
 
 INSERT INTO `pesans` (`id`, `name`, `nim`, `prodi`, `no_telp`, `tgl_pinjam`, `ruang`, `created_at`, `updated_at`) VALUES
 (20, 'Hellen Fatima', '16/401030/SV/11534', 'Komsi', '08578261426839', '2018-11-24', '', '2018-11-21 10:27:44', '2018-11-21 10:27:44'),
-(21, 'Trias NRC', '16/399912/SV/10504', 'Elins', '085085063906', '2018-11-30', 'HY T-201', '2018-11-21 10:41:03', '2018-11-21 10:41:03'),
-(22, 'Bagus Utama', '16/401111/SV/11644', 'Elektro', '085785063906', '2018-11-29', 'Laboratorium Elektronika', '2018-11-21 10:50:36', '2018-11-21 10:50:36');
+(21, 'Trias NRC', '16/399912/SV/10504', 'Elins', '085085063906', '2018-11-30', 'Ruang Kelas S 100', '2018-11-21 10:41:03', '2018-11-21 22:07:39'),
+(22, 'Bagus Utama', '16/401111/SV/11644', 'Elektro', '085785063906', '2018-11-29', 'HALL', '2018-11-21 10:50:36', '2018-11-21 22:07:29'),
+(23, 'ardia', '16/401030/SV/10000', 'Elins', '08578261426830', '2018-11-22', 'Ruang Pertemuan', '2018-11-21 22:27:49', '2018-11-21 22:27:49');
 
 -- --------------------------------------------------------
 
@@ -128,7 +129,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(5, 'Hellen Fatima', 'hellenfatima1505@gmail.com', '$2y$10$9On93OcDMLsx1YAPJhrzIes97D407qMcz7fYCEOYXzpw.TKpsEhHC', NULL, '2018-11-10 21:47:16', '2018-11-10 21:47:16');
+(5, 'Hellen Fatima', 'hellenfatima1505@gmail.com', '$2y$10$9On93OcDMLsx1YAPJhrzIes97D407qMcz7fYCEOYXzpw.TKpsEhHC', 'R20ap1Wk91p2TGSUmiiWDG3vzOwVQF87Znn8YkCpboD8tea1TRbC5xwNQWrY', '2018-11-10 21:47:16', '2018-11-10 21:47:16'),
+(6, 'test', 'test@tes.com', '$2y$10$GO0ZwUDs.9lqrpJtkmDfw.A8yr7J5UtdLhoftSqZuRIt20teur7uO', 'wsf54YigNPkeUKQRyP5kTHONlVW5ch85xz15dAfKUwRimts3hWGxASShkQoL', '2018-11-21 18:54:47', '2018-11-21 18:54:47'),
+(7, 'ardia', 'ardias@gmail.com', '$2y$10$DBUMuzCvqLGPrc4jkVBLE.INMCm8aSMAeRzj2sC.mUKJmorV0oHaW', 'fBr2wLvRUW3oOdWzcu8QjpFCfU2o4rpDdds1EmEkpGft6tHQdKk209YGrbpP', '2018-11-21 22:25:01', '2018-11-21 22:25:01');
 
 --
 -- Indexes for dumped tables
@@ -187,13 +190,23 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `pesans`
 --
 ALTER TABLE `pesans`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `password_resets`
+--
+ALTER TABLE `password_resets`
+  ADD CONSTRAINT `password_resets_ibfk_1` FOREIGN KEY (`email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
